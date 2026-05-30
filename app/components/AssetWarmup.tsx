@@ -11,6 +11,16 @@ export function AssetWarmup() {
       return;
     }
 
+    if (process.env.NODE_ENV !== "production") {
+      void navigator.serviceWorker
+        .getRegistrations()
+        .then((registrations) => Promise.all(registrations.map((registration) => registration.unregister())))
+        .catch((error) => {
+          console.error("Gagal menonaktifkan service worker dev:", error);
+        });
+      return;
+    }
+
     let cancelled = false;
 
     const warmMediaCache = async () => {

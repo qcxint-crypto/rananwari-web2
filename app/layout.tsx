@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Portfolio Rafli | RAN.WORKS</title>
+        <title>Portfolio Rafli | RANANWARI</title>
         <meta name="description" content="Engineering Portfolio - CAD 3D Drawing & Machine Design" />
         <link rel="icon" href="/MWA.png" />
       </head>

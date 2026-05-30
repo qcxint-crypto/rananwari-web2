@@ -28,7 +28,7 @@ export default function Navbar() {
           <div className="w-10 h-10 bg-retro-green flex items-center justify-center rounded-sm transform group-hover:rotate-12 transition-transform shadow-[4px_4px_0px_#1a5c0a]">
             <Cpu className="text-black" size={24} />
           </div>
-          <span className="text-white font-black italic tracking-tighter text-xl group-hover:text-retro-green transition-colors uppercase">RAN.WORKS</span>
+          <span className="text-white font-black italic tracking-tighter text-xl group-hover:text-retro-green transition-colors uppercase">RANANWARI</span>
         </Link>
 
         {/* Desktop Menu */}

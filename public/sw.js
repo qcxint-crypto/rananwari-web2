@@ -50,7 +50,7 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (isShellRequest(url.pathname)) {
-    event.respondWith(staleWhileRevalidate(event.request, STATIC_CACHE));
+    event.respondWith(networkFirst(event.request, STATIC_CACHE));
   }
 });
 
@@ -106,18 +106,16 @@ async function cacheFirst(request, cacheName) {
   return networkResponse;
 }
 
-async function staleWhileRevalidate(request, cacheName) {
+async function networkFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
-  const cachedResponse = await cache.match(request);
-
-  const networkPromise = fetch(request)
-    .then(async (response) => {
-      if (response.ok) {
-        await cache.put(request, response.clone());
-      }
-      return response;
-    })
-    .catch(() => cachedResponse);
-
-  return cachedResponse || networkPromise;
+  try {
+    const networkResponse = await fetch(request);
+    if (networkResponse.ok) {
+      await cache.put(request, networkResponse.clone());
+    }
+    return networkResponse;
+  } catch {
+    const cachedResponse = await cache.match(request);
+    return cachedResponse || Response.error();
+  }
 }

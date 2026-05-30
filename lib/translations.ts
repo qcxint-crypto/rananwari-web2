@@ -3,9 +3,9 @@ export type Language = "ID" | "EN" | "JP";
 export const translations = {
   ID: {
     user_name: "RAFLI ANWARI NURAFWAN, S.Tr.T",
-    nav_system: "SISTEM",
-    nav_archives: "ARSIP",
-    nav_clearance: "IZIN",
+    nav_system: "BERANDA",
+    nav_archives: "PROJEK",
+    nav_clearance: "SERTIFIKAT",
     hero_title: "REKAYASA",
     hero_subtitle: "MASA DEPAN",
     hero_desc: "Spesialisasi dalam Gambar 3D CAD, Desain Mesin, dan sistem Manufaktur tingkat lanjut.",
@@ -54,6 +54,7 @@ export const translations = {
     footer_designed: "Didesain & Dirancang oleh",
     footer_rights: "HAK_CIPTA_DILINDUNGI",
     // Certificates
+    JAPAN_FOUNDATION_TEST: "Yayasan Pertukaran Internasional Jepang",
     BNSP_MAINTENANCE: "Sertifikat BNSP Pemeliharaan",
     INTERNSHIP_PROGRAM: "Program Magang Industri",
     CAD_COMPETITION_NATIONAL: "Kompetisi CAD Nasional",
@@ -100,9 +101,9 @@ export const translations = {
   },
   EN: {
     user_name: "RAFLI ANWARI NURAFWAN, S.Tr.T",
-    nav_system: "SYSTEM",
-    nav_archives: "ARCHIVES",
-    nav_clearance: "CLEARANCE",
+    nav_system: "HOME",
+    nav_archives: "PROJECTS",
+    nav_clearance: "CERTIFICATES",
     hero_title: "ENGINEERING",
     hero_subtitle: "FUTURE",
     hero_desc: "Specializing in CAD 3D Drawing, Machine Design, and advanced Manufacturing systems.",
@@ -151,6 +152,7 @@ export const translations = {
     footer_designed: "Designed & Engineered by",
     footer_rights: "ALL_RIGHTS_RESERVED",
     // Certificates
+    JAPAN_FOUNDATION_TEST: "Japan Foundation Test",
     BNSP_MAINTENANCE: "BNSP Maintenance Certificate",
     INTERNSHIP_PROGRAM: "Industrial Internship Program",
     CAD_COMPETITION_NATIONAL: "National CAD Competition",
@@ -197,9 +199,9 @@ export const translations = {
   },
   JP: {
     user_name: "RAFLI ANWARI NURAFWAN, S.Tr.T",
-    nav_system: "システム",
-    nav_archives: "アーカイブ",
-    nav_clearance: "クリアランス",
+    nav_system: "ホーム",
+    nav_archives: "プロジェクト",
+    nav_clearance: "サーティフィケイト",
     hero_title: "エンジニアリング",
     hero_subtitle: "未来",
     hero_desc: "CAD 3D図面、機械設計、および高度な製造システムを専門としています。",
@@ -248,6 +250,7 @@ export const translations = {
     footer_designed: "設計・開発者：",
     footer_rights: "著作権所有",
     // Certificates
+    JAPAN_FOUNDATION_TEST: "国際交流基金",
     BNSP_MAINTENANCE: "BNSP メンテナンス資格",
     INTERNSHIP_PROGRAM: "産業インターンシップ",
     CAD_COMPETITION_NATIONAL: "全国CADコンペティション",

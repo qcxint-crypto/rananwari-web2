@@ -64,7 +64,7 @@ export default function SplashScreen() {
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
                 className="text-white text-4xl font-black tracking-tighter italic"
               >
-                RAN <span className="text-gray-500 font-light">WORKS</span>
+                RAN <span className="text-gray-500 font-light">ANWARI</span>
               </motion.h1>
             </div>
             
