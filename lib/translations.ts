@@ -54,6 +54,7 @@ export const translations = {
     footer_designed: "Didesain & Dirancang oleh",
     footer_rights: "HAK_CIPTA_DILINDUNGI",
     // Certificates
+    FOOD_AND_BEVERAGE_MANUFACTURING_INDUSTRY:"Ujian Keterampilan Khusus (i) untuk Industri Manufaktur Makanan dan Minuman",
     JAPAN_FOUNDATION_TEST: "Japan Foundation Test (JFT) A2",
     BNSP_MAINTENANCE: "Sertifikat BNSP Pemeliharaan",
     INTERNSHIP_PROGRAM: "Program Magang Industri",
@@ -152,6 +153,7 @@ export const translations = {
     footer_designed: "Designed & Engineered by",
     footer_rights: "ALL_RIGHTS_RESERVED",
     // Certificates
+    FOOD_AND_BEVERAGE_MANUFACTURING_INDUSTRY:"Food and beverage manufacturing industry Specified Skilled Worker (i) test",
     JAPAN_FOUNDATION_TEST: "Japan Foundation Test (JFT) A2",
     BNSP_MAINTENANCE: "BNSP Maintenance Certificate",
     INTERNSHIP_PROGRAM: "Industrial Internship Program",
@@ -250,6 +252,7 @@ export const translations = {
     footer_designed: "設計・開発者：",
     footer_rights: "著作権所有",
     // Certificates
+    FOOD_AND_BEVERAGE_MANUFACTURING_INDUSTRY:"飲食料品製造業 特定技能1号 評価試験",
     JAPAN_FOUNDATION_TEST: "国際交流基金",
     BNSP_MAINTENANCE: "BNSP メンテナンス資格",
     INTERNSHIP_PROGRAM: "産業インターンシップ",
