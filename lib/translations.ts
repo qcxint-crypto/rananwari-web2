@@ -54,7 +54,7 @@ export const translations = {
     footer_designed: "Didesain & Dirancang oleh",
     footer_rights: "HAK_CIPTA_DILINDUNGI",
     // Certificates
-    JAPAN_FOUNDATION_TEST: "Yayasan Pertukaran Internasional Jepang",
+    JAPAN_FOUNDATION_TEST: "Japan Foundation Test (JFT) A2",
     BNSP_MAINTENANCE: "Sertifikat BNSP Pemeliharaan",
     INTERNSHIP_PROGRAM: "Program Magang Industri",
     CAD_COMPETITION_NATIONAL: "Kompetisi CAD Nasional",
@@ -152,7 +152,7 @@ export const translations = {
     footer_designed: "Designed & Engineered by",
     footer_rights: "ALL_RIGHTS_RESERVED",
     // Certificates
-    JAPAN_FOUNDATION_TEST: "Japan Foundation Test",
+    JAPAN_FOUNDATION_TEST: "Japan Foundation Test (JFT) A2",
     BNSP_MAINTENANCE: "BNSP Maintenance Certificate",
     INTERNSHIP_PROGRAM: "Industrial Internship Program",
     CAD_COMPETITION_NATIONAL: "National CAD Competition",
