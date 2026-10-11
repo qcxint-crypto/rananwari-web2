@@ -54,6 +54,7 @@ export const translations = {
     footer_designed: "Didesain & Dirancang oleh",
     footer_rights: "HAK_CIPTA_DILINDUNGI",
     // Certificates
+    IJAZAH_D4:"Ijazah D4 Teknologi Rekayasa Manufaktur Politeknik Enjinering Indorama",
     FOOD_AND_BEVERAGE_MANUFACTURING_INDUSTRY:"Ujian Keterampilan Khusus (i) untuk Industri Manufaktur Makanan dan Minuman",
     JAPAN_FOUNDATION_TEST: "Japan Foundation Test (JFT) A2",
     BNSP_MAINTENANCE: "Sertifikat BNSP Pemeliharaan",
@@ -153,6 +154,7 @@ export const translations = {
     footer_designed: "Designed & Engineered by",
     footer_rights: "ALL_RIGHTS_RESERVED",
     // Certificates
+    IJAZAH_D4:"Diploma IV in Manufacturing Engineering Technology, Indorama Engineering Polytechnic",
     FOOD_AND_BEVERAGE_MANUFACTURING_INDUSTRY:"Food and beverage manufacturing industry Specified Skilled Worker (i) test",
     JAPAN_FOUNDATION_TEST: "Japan Foundation Test (JFT) A2",
     BNSP_MAINTENANCE: "BNSP Maintenance Certificate",
@@ -252,6 +254,7 @@ export const translations = {
     footer_designed: "設計・開発者：",
     footer_rights: "著作権所有",
     // Certificates
+    IJAZAH_D4:"インドラマ・エンジニアリング工科大学 製造工学技術学科 学士相当（ディプロマIV）",
     FOOD_AND_BEVERAGE_MANUFACTURING_INDUSTRY:"飲食料品製造業 特定技能1号 評価試験",
     JAPAN_FOUNDATION_TEST: "国際交流基金",
     BNSP_MAINTENANCE: "BNSP メンテナンス資格",
