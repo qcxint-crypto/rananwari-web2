@@ -14,12 +14,13 @@ const certificates = [
   { id: "c2", nameKey: "JAPAN_FOUNDATION_TEST", company: "JAPANFOUNDATION 国際交流基金", images: ["/certificates/jft-depan.jpeg", "/certificates/jft-belakang.jpeg"] },
   { id: "c3", nameKey: "BNSP_MAINTENANCE", company: "Badan Nasional Sertifikasi Profesi (BNSP)", images: ["/certificates/BNSP-maintenance-depan.png", "/certificates/BNSP-maintenance-belakang.png"] },
   { id: "c4", nameKey: "INTERNSHIP_PROGRAM", company: "PT. Indorama Synthetics Tbk", images: ["/certificates/sertif-magang.png"] },
-  { id: "c5", nameKey: "CAD_COMPETITION_NATIONAL", company: "HMM FPTK UPI", images: ["/certificates/Mechanical-Drafting-Competition.jpg"] },
-  { id: "c6", nameKey: "SOLIDWORKS_TRAINING", company: "HMM ITBU", images: ["/certificates/solidworks-software-training.jpg"] },
-  { id: "c7", nameKey: "CYBER_SECURITY_FUND", company: "Wehack", images: ["/certificates/cyber-seccurity-fundamental.png"] },
-  { id: "c8", nameKey: "CONTENT_HACK_BRANDING", company: "Content Academy", images: ["/certificates/content-hack-personal-branding.jpg"] },
-  { id: "c9", nameKey: "TECHNOPRENEUR_AWARENESS", company: "HME PEI", images: ["/certificates/realizing-a-youth-for-technopreneurship.jpg"] },
-  { id: "c10", nameKey: "CRYPTO_FUNDAMENTALS", company: "HMM TRPL PEI", images: ["/certificates/what-to-know-cryptocurrency-in-this-era.jpg"] },
+  { id: "c5", nameKey: "IJAZAH_D4", company: "Politeknik Enjinering Indorama", images: ["/certificates/Ijazah-D4.jpeg"] },
+  { id: "c6", nameKey: "CAD_COMPETITION_NATIONAL", company: "HMM FPTK UPI", images: ["/certificates/Mechanical-Drafting-Competition.jpg"] },
+  { id: "c7", nameKey: "SOLIDWORKS_TRAINING", company: "HMM ITBU", images: ["/certificates/solidworks-software-training.jpg"] },
+  { id: "c8", nameKey: "CYBER_SECURITY_FUND", company: "Wehack", images: ["/certificates/cyber-seccurity-fundamental.png"] },
+  { id: "c9", nameKey: "CONTENT_HACK_BRANDING", company: "Content Academy", images: ["/certificates/content-hack-personal-branding.jpg"] },
+  { id: "c10", nameKey: "TECHNOPRENEUR_AWARENESS", company: "HME PEI", images: ["/certificates/realizing-a-youth-for-technopreneurship.jpg"] },
+  { id: "c11", nameKey: "CRYPTO_FUNDAMENTALS", company: "HMM TRPL PEI", images: ["/certificates/what-to-know-cryptocurrency-in-this-era.jpg"] },
 ];
 
 export default function Certificates() {
